@@ -8,12 +8,14 @@ import cors from "cors";
 dotenv.config();
 const app = express();
 
+app.use(cors());
+
 app.use('/graphql', graphqlHTTP({
   schema,
   graphiql: true
 }));
 
-app.use(cors());
+
 
 const port = process.env.PORT || 5050;
 

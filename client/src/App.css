@@ -2,9 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  display: block;
+  width: 300px;
+  margin: auto;
+}
+
+.card__img{
+  width: 100px;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +40,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.title-container{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+.button-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
